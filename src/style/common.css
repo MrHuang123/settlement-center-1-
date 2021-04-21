@@ -1,0 +1,71 @@
+body {font-family: '微软雅黑', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',  'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'}
+.pull-left { float: left; display: block;}
+.pull-left.many-text{
+    max-width: 300px;
+}
+.pull-right { float: right; display: block;}
+.tableStyle { text-align: center !important; }
+.rowIsDelete { background: #ff2b3e; }
+.onelinesub {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.buttonStyle {
+    color: #0073c9;
+    cursor: pointer;
+}
+.ant-typography ul, .ant-typography ol {
+    margin: 0;
+}
+.ant-typography ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.detailsBox { padding: 10px 36px; }
+.detailsLabel{ width: 120px;   text-align: right; margin-right: 24px; }
+.comLabel{width: 200px;   text-align: right; margin-right: 24px;}
+.bottom-btn-div{text-align: center;}
+.bottom-btn-div .btn{margin-right: 20px;}
+.bottom-btn-div.fixed-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 246px;
+    right: 16px;
+    background: #ffffff;
+    padding: 6px 0;
+    border-top: solid 1px #e1e1e1;
+    z-index: 100;
+}
+
+.ant-calendar-header .ant-calendar-prev-month-btn::before, .ant-calendar-header .ant-calendar-prev-month-btn::after{
+    border:0 solid #333333;
+    border-width: 1.5px 0 0 1.5px;
+}
+
+.ant-calendar-header .ant-calendar-next-month-btn::before, .ant-calendar-header .ant-calendar-next-month-btn::after{
+    border:0 solid #333333;
+    border-width: 1.5px 0 0 1.5px;
+}
+
+.ant-calendar-header .ant-calendar-prev-century-btn::before, .ant-calendar-header .ant-calendar-prev-decade-btn::before, .ant-calendar-header .ant-calendar-prev-year-btn::before, .ant-calendar-header .ant-calendar-prev-century-btn::after, .ant-calendar-header .ant-calendar-prev-decade-btn::after, .ant-calendar-header .ant-calendar-prev-year-btn::after{
+    border:0 solid #333333;
+    border-width: 1.5px 0 0 1.5px;
+}
+.ant-calendar-header .ant-calendar-next-century-btn::before, .ant-calendar-header .ant-calendar-next-decade-btn::before, .ant-calendar-header .ant-calendar-next-year-btn::before, .ant-calendar-header .ant-calendar-next-century-btn::after, .ant-calendar-header .ant-calendar-next-decade-btn::after, .ant-calendar-header .ant-calendar-next-year-btn::after{
+    border:0 solid #333333;
+    border-width: 1.5px 0 0 1.5px;
+}
+.divBorder{
+    border:1px solid #ccc;
+    padding:10px 8px;
+    margin-bottom: 16px;
+}
+main{
+    padding: 12px !important;
+}
+.sider{
+    overflow-y: scroll;
+}
+.sider::-webkit-scrollbar {display:none;}

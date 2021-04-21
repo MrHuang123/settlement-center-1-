@@ -1,0 +1,97 @@
+
+@import "~antd/dist/antd.less";
+
+@font-size-base: 14px;
+@layout-header-background: #001529;
+
+html { overflow-y: hidden; }
+
+//针对IE10中flex:auto;不起作用
+.ant-layout {
+	flex: 1;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .logoContainer {
+    	text-align: center;
+    	height: 100px;
+    	line-height: 100px;
+
+		a {
+			display: inline-block;
+
+			.logo {
+				width: 50px;
+				height: 50px;
+			}
+		}
+
+		.title {
+			color: #1890ff;
+			font-size: 17px;
+			font-weight: 600;
+			display: inline-block;
+    		padding: 0 10px;
+		}
+    }
+
+    .header {
+		background: #fff;
+		padding: 0 10px;
+		height: 50px;
+		line-height: 50px;
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.trigger {
+			font-size: 17px;
+		}
+		.btngroup{
+			height:100%;
+			display: flex;
+			align-items: center;
+			.userCompany{
+				margin-right: 20px;
+				vertical-align: middle;
+			}
+			.userContainer {
+				vertical-align: middle;
+				font-size: 16px;
+				z-index: 100;
+				.userInfo {
+					font-size: 16px;
+					text-align: right;
+					padding: 2px;
+					cursor: pointer;
+					.usernameIcon {
+						margin-right: 10px;
+					}
+				}
+	
+				.userOption {
+					background: #0073c9;
+					width: 150px;
+					font-size: 15px;
+					color: #fff;
+					border-radius: 6px;
+					padding-left: 15px;
+	
+					.logout {
+						cursor: pointer;
+						width: 100%;
+						text-align: left;
+						outline: none;
+						border: none;
+					}
+				}
+			}
+		}
+	}
+}

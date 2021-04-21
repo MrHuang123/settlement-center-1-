@@ -1,0 +1,12 @@
+.ant-layout-ie9 {
+	height: 100%;
+}
+
+.ant-layout-sider-ie9 {
+	float: left;
+	height: 100%;
+}
+
+.trigger {
+	display: none !important;
+}

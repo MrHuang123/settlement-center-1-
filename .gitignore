@@ -1,0 +1,11 @@
+node_modules/
+npm-debug.log
+public/app.*.css
+public/scripts
+public/img
+public/index.html
+public/*.js
+public/*.map
+.idea
+yarn-error.log
+.vscode

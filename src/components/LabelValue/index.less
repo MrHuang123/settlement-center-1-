@@ -1,0 +1,18 @@
+.label-value-layout {
+    display: inline-flex;
+    span {
+      &:first-child {
+        white-space: nowrap;
+        padding-right:4px;
+      }
+      &:last-child {
+        flex: 1;
+        &.no-wrap{
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+  
